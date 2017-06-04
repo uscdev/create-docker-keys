@@ -7,10 +7,10 @@ if [ "$PASSPHRASE" == "" ]; then
     read PASSPHRASE
 fi
 
-echo -n "Enter FQ Host Name > "
+echo -n "Enter Full Host Name > "
 read HOST
 
-echo -n "Enter FQ Altername Names (IP:x.x.x.x,DNS:*.a.b.com) > "
+echo -n "Enter Full Alternate Domain Names (IP:x.x.x.x,DNS:*.a.b.com) > "
 read ALT
 
 echo Enter Cert information \(Leave passphrase blank\)
